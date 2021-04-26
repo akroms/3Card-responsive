@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 15px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.card-container {
+    margin-top: 70px;
+    margin-left: 230px;
+}
+
+.card img {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    display: block;
+}
+
+.card span {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.card p {
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 30px;
+    font-size: 14px;
+    padding-bottom:60px;
+}
+
+.card {
+    height: 410px;
+    width: 220px;
+    padding: 40px;
+    color: #fff;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-yellow {
+    background-color:hsl(31, 77%, 52%);
+
+}
+
+.card-yellow button {
+    color: hsl(31, 77%, 52%);
+}
+
+.card-lightblue {
+    background-color:hsl(184, 100%, 22%);
+}
+
+.card-lightblue button {
+    color:hsl(184, 100%, 22%);
+}
+
+.card-darkgreen {
+    background-color:hsl(179, 100%, 13%);
+}
+
+.card-darkgreen button {
+    color:hsl(179, 100%, 13%);
+}
+
+button {
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    text-transform:capitalize;
+    font-weight: 600;
+}
+
+
+/*
+
+@media screen and (max-width:1440px){
+    
+}
+
+@media screen and (max-width:375px){
+    
+}
+
+*/
