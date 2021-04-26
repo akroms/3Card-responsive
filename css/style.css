@@ -79,7 +79,7 @@ button {
     border: none;
     text-transform:capitalize;
     font-weight: 600;
-    pointer:cursor;
+    cursor:pointer;
 }
 
 @media screen and (max-width:375px){
